@@ -481,6 +481,10 @@
 		A0F79FBD1F642AE2007CFC08 /* RDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */; };
 		A0F79FBE1F642AE2007CFC08 /* RDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */; };
 		A0F79FBF1F642AE2007CFC08 /* RDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */; };
+		A13CDA632966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CDA622966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift */; };
+		A13CDA642966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CDA622966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift */; };
+		A13CDA652966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CDA622966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift */; };
+		A13CDA662966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CDA622966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift */; };
 		BB394B79223B362300366193 /* Ampersand.xml in Resources */ = {isa = PBXBuildFile; fileRef = BB394B77223B35D700366193 /* Ampersand.xml */; };
 		BB394B7A223B362400366193 /* Ampersand.xml in Resources */ = {isa = PBXBuildFile; fileRef = BB394B77223B35D700366193 /* Ampersand.xml */; };
 		BB394B7B223B362400366193 /* Ampersand.xml in Resources */ = {isa = PBXBuildFile; fileRef = BB394B77223B35D700366193 /* Ampersand.xml */; };
@@ -721,6 +725,7 @@
 		A0F6B9BD1F6E6FC700220625 /* FeedDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailTableViewController.swift; sourceTree = "<group>"; };
 		A0F6B9BE1F6E6FC700220625 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDFTests.swift; sourceTree = "<group>"; };
+		A13CDA622966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomFeedEntryAuthorLink.swift; sourceTree = "<group>"; };
 		BB394B77223B35D700366193 /* Ampersand.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Ampersand.xml; sourceTree = "<group>"; };
 		BB394B7C223B368C00366193 /* AmpersandTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmpersandTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -962,6 +967,7 @@
 				A0F6B7D21F6E6E9600220625 /* AtomFeedContributor.swift */,
 				A0F6B7D31F6E6E9600220625 /* AtomFeedEntry.swift */,
 				A0F6B7D41F6E6E9600220625 /* AtomFeedEntryAuthor.swift */,
+				A13CDA622966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift */,
 				A0F6B7D51F6E6E9600220625 /* AtomFeedEntryCategory.swift */,
 				A0F6B7D61F6E6E9600220625 /* AtomFeedEntryContent.swift */,
 				A0F6B7D71F6E6E9600220625 /* AtomFeedEntryContributor.swift */,
@@ -1629,6 +1635,7 @@
 				A0F6B87F1F6E6EB800220625 /* RSSPath.swift in Sources */,
 				A0F6B82F1F6E6EB800220625 /* RFC822DateFormatter.swift in Sources */,
 				A0F6B83F1F6E6EB800220625 /* AtomFeedEntryLink.swift in Sources */,
+				A13CDA662966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */,
 				A0F6B8441F6E6EB800220625 /* AtomFeedSubtitle.swift in Sources */,
 				A0F6B8641F6E6EB800220625 /* MediaRights.swift in Sources */,
 				A0F6B8781F6E6EB800220625 /* RSSFeedItemCategory.swift in Sources */,
@@ -1825,6 +1832,7 @@
 				A0F6B9371F6E6EBB00220625 /* RSSPath.swift in Sources */,
 				A0F6B8E71F6E6EBA00220625 /* RFC822DateFormatter.swift in Sources */,
 				A0F6B8F71F6E6EBB00220625 /* AtomFeedEntryLink.swift in Sources */,
+				A13CDA642966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */,
 				A0F6B8FC1F6E6EBB00220625 /* AtomFeedSubtitle.swift in Sources */,
 				A0F6B91C1F6E6EBB00220625 /* MediaRights.swift in Sources */,
 				A0F6B9301F6E6EBB00220625 /* RSSFeedItemCategory.swift in Sources */,
@@ -1925,6 +1933,7 @@
 				A0F6B8DB1F6E6EBA00220625 /* RSSPath.swift in Sources */,
 				A0F6B88B1F6E6EBA00220625 /* RFC822DateFormatter.swift in Sources */,
 				A0F6B89B1F6E6EBA00220625 /* AtomFeedEntryLink.swift in Sources */,
+				A13CDA652966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */,
 				A0F6B8A01F6E6EBA00220625 /* AtomFeedSubtitle.swift in Sources */,
 				A0F6B8C01F6E6EBA00220625 /* MediaRights.swift in Sources */,
 				A0F6B8D41F6E6EBA00220625 /* RSSFeedItemCategory.swift in Sources */,
@@ -2025,6 +2034,7 @@
 				A0F6B9931F6E6EBB00220625 /* RSSPath.swift in Sources */,
 				A0F6B9431F6E6EBB00220625 /* RFC822DateFormatter.swift in Sources */,
 				A0F6B9531F6E6EBB00220625 /* AtomFeedEntryLink.swift in Sources */,
+				A13CDA632966C11A0057D0AE /* AtomFeedEntryAuthorLink.swift in Sources */,
 				A0F6B9581F6E6EBB00220625 /* AtomFeedSubtitle.swift in Sources */,
 				A0F6B9781F6E6EBB00220625 /* MediaRights.swift in Sources */,
 				A0F6B98C1F6E6EBB00220625 /* RSSFeedItemCategory.swift in Sources */,

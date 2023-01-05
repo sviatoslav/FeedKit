@@ -102,6 +102,15 @@ extension AtomFeed {
             
             self.entries?.last?.authors?.append(AtomFeedEntryAuthor())
             
+        case .feedEntryAuthorLink:
+            
+            if self.entries?.last?.authors?.last?.links == nil {
+                self.entries?.last?.authors?.last?.links = []
+            }
+            
+            self.entries?.last?.authors?.last?.links?.append(AtomFeedEntryAuthorLink(attributes: attributes))
+            
+
         case .feedEntryContributor:
             
             if  self.entries?.last?.contributors == nil {

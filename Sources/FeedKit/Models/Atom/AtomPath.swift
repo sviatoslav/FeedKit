@@ -66,6 +66,7 @@ enum AtomPath: String {
     case feedEntryAuthorName                               = "/feed/entry/author/name"
     case feedEntryAuthorEmail                              = "/feed/entry/author/email"
     case feedEntryAuthorUri                                = "/feed/entry/author/uri"
+    case feedEntryAuthorLink                               = "/feed/entry/author/link"
     case feedEntryContributor                              = "/feed/entry/contributor"
     case feedEntryContributorName                          = "/feed/entry/contributor/name"
     case feedEntryContributorEmail                         = "/feed/entry/contributor/email"
